@@ -1,0 +1,49 @@
+:root {
+  --roosa: #FC8EAC;
+  --sinine: #8EFCDE;
+  --must: #232323;
+  --valge: #FFFFFF;
+}
+* {
+  color: var(--fontColor);
+  font-family: Georgia;
+}
+body {
+    background: var(--bg);
+}
+ul {
+    font-family: Courier New;
+}
+li {
+  list-style: circle;
+}
+
+.õppeained {
+  list-style: square;
+}
+.nupp {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--nuppFontColor);
+  background-color: var(--nuppBg);
+}
+.nupp:focus { outline-style: none; }
+
+.light-theme {
+  --bg: var(--valge);
+  --fontColor: var(--roosa);
+  --nuppBg: var(--sinine);
+  --nuppFontColor: var(--roosa);
+}
+
+.dark-theme {
+  --bg: var(--must);
+  --fontColor: var(--sinine);
+  --nuppBg: var(--roosa);
+  --nuppFontColor: var(--sinine);
+}
