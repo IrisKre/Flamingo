@@ -4,27 +4,85 @@
   --must: #232323;
   --valge: #FFFFFF;
 }
-* {
+.light-theme {
+  --bg: var(--valge);
+  --fontColor: var(--roosa);
+  --nuppBg: var(--sinine);
+  --nuppFontColor: var(--must);
+}
+.dark-theme {
+  --bg: var(--must);
+  --fontColor: var(--sinine);
+  --nuppBg: var(--roosa);
+  --nuppFontColor: var(--valge);
+}
+a {
   color: var(--fontColor);
-  font-family: Georgia;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
 }
 body {
-    background: var(--bg);
+  background: var(--bg);
+  font-weight: normal;
+  font-size: 13px;
+  color: var(--fontColor);
+  margin: 0%;
 }
 ul {
-    font-family: Courier New;
+  color: var(--fontColor);
 }
-li {
-  list-style: circle;
+.lehepäis {
+  padding: 60px;
+  text-align: center;
+  background: var(--fontColor);
 }
-
+.jalus {
+  padding: 20px;
+  background: var(--fontColor);
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--bg);
+  margin-bottom: 0;
+}
+.tulp {
+  float: left;
+}
+.tulp.äärmised {
+  width: 25%;
+  text-align: center;
+}
+.tulp.keskmine {
+  width: 50%;
+  text-align: center;
+}
+.rida:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .tulp.äärmised, .tulp.keskmine {
+    width: 100%;
+  }
+}
 .õppeained {
   list-style: square;
 }
 .nupp {
   position: absolute;
-  top: 20px;
-  left: 250px;
+  top: 2px;
+  right: 2px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -33,17 +91,3 @@ li {
   background-color: var(--nuppBg);
 }
 .nupp:focus { outline-style: none; }
-
-.light-theme {
-  --bg: var(--valge);
-  --fontColor: var(--roosa);
-  --nuppBg: var(--sinine);
-  --nuppFontColor: var(--roosa);
-}
-
-.dark-theme {
-  --bg: var(--must);
-  --fontColor: var(--sinine);
-  --nuppBg: var(--roosa);
-  --nuppFontColor: var(--sinine);
-}
