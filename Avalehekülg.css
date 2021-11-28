@@ -1,0 +1,39 @@
+.tulp {
+    float: left;
+}
+.tulp.äärmine {
+    width: 30%;
+    text-align: center;
+    background: var(--nuppBg);
+    color: var(--bg);
+}
+.tulp.keskmine {
+    width: 70%;
+    text-align: center;
+    color: var(--fontColor);
+}
+.rida:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px){
+    .tulp.äärmised, .tulp.keskmine {
+        width: 100%;
+    }
+}
+.õppeained {
+    list-style: square;
+}
+.nupp {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--nuppFontColor);
+    background-color: var(--nuppBg);
+}
+.nupp:focus { outline-style: none; }
