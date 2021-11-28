@@ -8,16 +8,43 @@
   --bg: var(--valge);
   --fontColor: var(--roosa);
   --nuppBg: var(--sinine);
-  --nuppFontColor: var(--must);
+  --nuppFontColor: var(--valge);
 }
 .dark-theme {
   --bg: var(--must);
   --fontColor: var(--sinine);
   --nuppBg: var(--roosa);
-  --nuppFontColor: var(--valge);
+  --nuppFontColor: var(--must);
+}
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+h1 {
+  font-size: 48px;
+  color: var(--bg);
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 17px;
 }
 a {
-  color: var(--fontColor);
+  color: var(--bg);
 }
 a:link {
   text-decoration: none;
@@ -31,63 +58,27 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 body {
   background: var(--bg);
-  font-weight: normal;
-  font-size: 13px;
-  color: var(--fontColor);
   margin: 0%;
 }
-ul {
-  color: var(--fontColor);
-}
 .lehepäis {
-  padding: 60px;
+  width:100%;
+  padding: 20px;
   text-align: center;
   background: var(--fontColor);
 }
 .jalus {
+  position: absolute;
+  bottom: 0;
+  width:100%;
   padding: 20px;
   background: var(--fontColor);
-  margin-top: 15px;
   text-align: center;
-  font-size: 15px;
   color: var(--bg);
-  margin-bottom: 0;
 }
-.tulp {
-  float: left;
-}
-.tulp.äärmised {
-  width: 25%;
-  text-align: center;
-}
-.tulp.keskmine {
-  width: 50%;
-  text-align: center;
-}
-.rida:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .tulp.äärmised, .tulp.keskmine {
-    width: 100%;
-  }
-}
-.õppeained {
-  list-style: square;
-}
-.nupp {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  color: var(--nuppFontColor);
-  background-color: var(--nuppBg);
-}
-.nupp:focus { outline-style: none; }
