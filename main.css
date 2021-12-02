@@ -75,9 +75,10 @@ header {
   margin: 0%;
 }
 footer {
-  position: absolute;
+  position: -ms-page;
+  bottom: 0%;
+  height: 10%;
   width: 100%;
-  bottom: 0;
   background: var(--fontColor);
   text-align: center;
   color: var(--bg);
