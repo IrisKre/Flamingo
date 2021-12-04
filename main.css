@@ -6,14 +6,14 @@
 }
 .light-theme {
   --bg: var(--valge);
-  --fontColor: var(--roosa);
-  --nuppBg: var(--sinine);
+  --fontColor: var(--sinine);
+  --nuppBg: var(--roosa);
   --nuppFontColor: var(--valge);
 }
 .dark-theme {
   --bg: var(--must);
-  --fontColor: var(--sinine);
-  --nuppBg: var(--roosa);
+  --fontColor: var(--roosa);
+  --nuppBg: var(--sinine);
   --nuppFontColor: var(--must);
 }
 *{
@@ -34,8 +34,7 @@ h1 {
 h2 {
   font-size: 36px;
   color: var(--bg);
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 h3 {
   font-size: 36px;
@@ -76,6 +75,7 @@ ul {
 body {
   background: var(--bg);
   margin: 0%;
+  height: 100%;
 }
 header {
   text-align: center;
@@ -83,16 +83,10 @@ header {
   margin: 0%;
   padding: 0%;
   padding-bottom: 16px;
+  height: 40%;
 }
-footer {
-  position: -ms-page;
-  bottom: 0%;
-  height: 10%;
-  width: 100%;
-  background: var(--fontColor);
+aside {
   text-align: center;
-  color: var(--bg);
-  margin: 0%;
 }
 aside {
   margin-top: -16px;
@@ -102,6 +96,22 @@ section {
   display: -webkit-flex;
   display: flex;
   text-align: center;
+  min-width: 1000px;
+}
+.clear {
+  clear: both;
+  height: 50px;
+  background: var(--bg);
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background: var(--nuppBg);
+  text-align: center;
+  color: var(--bg);
+  margin: 0%;
 }
 nav {
   -webkit-flex: 1;
@@ -134,3 +144,4 @@ article {
   background-color: var(--nuppBg);
 }
 .nupp:focus { outline-style: none; }
+
