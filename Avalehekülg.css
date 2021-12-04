@@ -1,24 +1,3 @@
-.tulp {
-    float: left;
-}
-.tulp.äärmine {
-    width: 30%;
+.tutvustus {
     text-align: center;
-    background: var(--nuppBg);
-    color: var(--bg);
-}
-.tulp.keskmine {
-    width: 70%;
-    text-align: center;
-    color: var(--fontColor);
-}
-.rida:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-@media screen and (max-width: 600px){
-    .tulp.äärmised, .tulp.keskmine {
-        width: 100%;
-    }
 }
