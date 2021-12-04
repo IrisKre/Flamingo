@@ -6,14 +6,14 @@
 }
 .light-theme {
   --bg: var(--valge);
-  --fontColor: var(--roosa);
-  --nuppBg: var(--sinine);
+  --fontColor: var(--sinine);
+  --nuppBg: var(--roosa);
   --nuppFontColor: var(--valge);
 }
 .dark-theme {
   --bg: var(--must);
-  --fontColor: var(--sinine);
-  --nuppBg: var(--roosa);
+  --fontColor: var(--roosa);
+  --nuppBg: var(--sinine);
   --nuppFontColor: var(--must);
 }
 *{
