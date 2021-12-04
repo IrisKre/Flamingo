@@ -1,0 +1,29 @@
+.pealmine {
+    border-bottom: 4px solid;
+    border-bottom-color: var(--fontColor);
+    margin-bottom: 0px;
+}
+
+article {
+    line-height: 200%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -4px;
+    
+    box-sizing: border-box;
+}
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+    padding: 0px;
+}
+@media screen and (max-width:1000px) {
+    .column {
+        width: 100%;
+    }
+}
