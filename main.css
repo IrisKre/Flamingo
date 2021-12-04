@@ -34,8 +34,7 @@ h1 {
 h2 {
   font-size: 36px;
   color: var(--bg);
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 h3 {
   font-size: 36px;
@@ -82,6 +81,10 @@ header {
   text-align: center;
   background: var(--fontColor);
   margin: 0%;
+  height: 40%;
+}
+aside {
+  text-align: center;
 }
 section {
   display: -webkit-flex;
@@ -98,7 +101,7 @@ footer {
   bottom: 0px;
   height: 50px;
   width: 100%;
-  background: var(--fontColor);
+  background: var(--nuppBg);
   text-align: center;
   color: var(--bg);
   margin: 0%;
@@ -133,3 +136,4 @@ article {
   background-color: var(--nuppBg);
 }
 .nupp:focus { outline-style: none; }
+
