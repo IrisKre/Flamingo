@@ -3,7 +3,6 @@
     border-bottom-color: var(--nuppBg);
     margin-bottom: 0px;
 }
-
 article {
     line-height: 200%;
 }
@@ -14,8 +13,6 @@ article {
     padding-top: 8px;
     border-right-color: var(--nuppBg);
     font-size: 20px;
-    
-
 }
 p {
     padding-left: 32px;

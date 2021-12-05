@@ -24,16 +24,17 @@
     border-bottom: 6px #0002;
     margin: 5px;
 }
-.kalkulaator_nupp {
+.kalkulaator_taust {
     float: left;
     background: var(--fontColor);
     width: 452px;
     text-align: center;
+    height: 100%;
 }
 .kalkulaator_link {
     color: var(--bg);
 }
-.vahe {
+.calculus {
     background: var(--nuppBg);
     color: var(--bg);
     font-size: 20px;
