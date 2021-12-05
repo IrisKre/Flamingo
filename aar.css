@@ -42,6 +42,30 @@ article {
     height:300px;
     border: none;
 }
-.kolmeks-alumine {
-    
+.b {
+    margin-bottom: 0px;
+}
+.c {
+    margin-bottom: 0px;
+}
+.d {
+    clear: both;
+}
+.e {
+    margin-top: 16px;
+}
+.link-nupp {
+    background: var(--fontColor);
+    color: var(--bg);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 16px 60px;
+    border-radius: 10px;
+    border:none;
+    border-bottom: 6px #0002;
+    margin: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    -moz-appearance: button;
+    -webkit-appearance: button;
 }

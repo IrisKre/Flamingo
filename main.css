@@ -144,4 +144,9 @@ article {
   background-color: var(--nuppBg);
 }
 .nupp:focus { outline-style: none; }
+.download {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
 
