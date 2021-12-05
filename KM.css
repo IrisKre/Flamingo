@@ -7,6 +7,7 @@
     background: var(--fontColor);
     height: 100%;
     text-align: center;
+    padding-top: 6px;
 }
 .videowrapper iframe {
     height: 315px*50%;
@@ -27,9 +28,11 @@
 .kalkulaator_taust {
     float: left;
     background: var(--fontColor);
-    width: 452px;
+    width: 507px;
     text-align: center;
     height: 100%;
+    padding-top: 6px;
+    padding-bottom: 16px;
 }
 .kalkulaator_link {
     color: var(--bg);
@@ -43,5 +46,7 @@
     border-radius: 10px;
     border:none;
     border-bottom: 6px #0002;
-    margin: 5px; 
+    margin: 5px;
+    -moz-appearance: button;
+    -webkit-appearance: button;
 }
