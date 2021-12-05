@@ -1,6 +1,6 @@
 :root {
   --roosa: #FC8EAC;
-  --sinine: #8EFCDE;
+  --sinine: #8efcdf;
   --must: #232323;
   --valge: #FFFFFF;
 }
@@ -18,7 +18,7 @@
 }
 *{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 h1,h2,h3,h4,h5,h6{
@@ -82,7 +82,7 @@ header {
   background: var(--fontColor);
   margin: 0%;
   padding: 0%;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
   height: 40%;
 }
 aside {
